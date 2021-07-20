@@ -1,6 +1,7 @@
 
 shadow.cljs.devtools.client.env.module_loaded('app');
-;
+
+try { sevenguis.core.init_BANG_(); } catch (e) { console.error("An error occurred when calling (sevenguis.core/init_BANG_)"); throw(e); };
 SHADOW_ENV.setLoaded("shadow.js.js");
 SHADOW_ENV.setLoaded("module$node_modules$object_assign$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$react$cjs$react_production_min.js");
