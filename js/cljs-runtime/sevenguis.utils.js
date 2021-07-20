@@ -51,8 +51,8 @@ return cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.char$,cljs.core.ran
  * true if coll contains el
  */
 sevenguis.utils.in_QMARK_ = (function sevenguis$utils$in_QMARK_(coll,el){
-return cljs.core.some((function (p1__57407_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(el,p1__57407_SHARP_);
+return cljs.core.some((function (p1__37119_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(el,p1__37119_SHARP_);
 }),coll);
 });
 /**
@@ -63,8 +63,8 @@ sevenguis.utils.date_now = (new Date(Date.now()));
  * Format date as dd-MM-yyyy
  */
 sevenguis.utils.format_date = (function sevenguis$utils$format_date(var_args){
-var G__57409 = arguments.length;
-switch (G__57409) {
+var G__37121 = arguments.length;
+switch (G__37121) {
 case 1:
 return sevenguis.utils.format_date.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

@@ -4,11 +4,11 @@ return (typeof Promise !== 'undefined');
 });
 devtools.async.fixed_chrome_version_for_async = "65.0.3321";
 devtools.async.needed_QMARK_ = (function devtools$async$needed_QMARK_(){
-return cljs.core.not((function (){var and__4221__auto__ = goog.labs.userAgent.browser.isChrome();
-if(cljs.core.truth_(and__4221__auto__)){
+return cljs.core.not((function (){var and__4210__auto__ = goog.labs.userAgent.browser.isChrome();
+if(cljs.core.truth_(and__4210__auto__)){
 return goog.labs.userAgent.browser.isVersionOrHigher(devtools.async.fixed_chrome_version_for_async);
 } else {
-return and__4221__auto__;
+return and__4210__auto__;
 }
 })());
 });
@@ -23,12 +23,12 @@ throw e;
 }),(0));
 });
 devtools.async.promise_based_set_immediate = (function devtools$async$promise_based_set_immediate(callback){
-var o__56804__auto___57896 = (function (){var o__56804__auto___57896 = (function (){var o__56804__auto___57896 = Promise;
-return (o__56804__auto___57896["resolve"]).call(o__56804__auto___57896);
+var o__26566__auto___27461 = (function (){var o__26566__auto___27461 = (function (){var o__26566__auto___27461 = Promise;
+return (o__26566__auto___27461["resolve"]).call(o__26566__auto___27461);
 })();
-return (o__56804__auto___57896["then"]).call(o__56804__auto___57896,callback);
+return (o__26566__auto___27461["then"]).call(o__26566__auto___27461,callback);
 })();
-(o__56804__auto___57896["catch"]).call(o__56804__auto___57896,devtools.async.rethrow_outside_promise);
+(o__26566__auto___27461["catch"]).call(o__26566__auto___27461,devtools.async.rethrow_outside_promise);
 
 return null;
 });
@@ -49,14 +49,14 @@ return null;
 } else {
 (devtools.async._STAR_installed_STAR_ = true);
 
-var G__57885_57897 = Error;
-var target__56817__auto___57898 = G__57885_57897;
-if(cljs.core.truth_(target__56817__auto___57898)){
+var G__27458_27463 = Error;
+var target__26595__auto___27464 = G__27458_27463;
+if(cljs.core.truth_(target__26595__auto___27464)){
 } else {
-throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__57885_57897)].join(''),"\n","target__56817__auto__"].join('')));
+throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__27458_27463)].join(''),"\n","target__26595__auto__"].join('')));
 }
 
-(target__56817__auto___57898["stackTraceLimit"] = Infinity);
+(target__26595__auto___27464["stackTraceLimit"] = Infinity);
 
 
 devtools.async.install_async_set_immediate_BANG_();
